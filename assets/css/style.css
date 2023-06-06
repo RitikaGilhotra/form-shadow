@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.main{
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+    
+    height: 100vh;
+    display: flex;
+    /* place-items: center; */
+    justify-content: center;
+    align-items: center;
+ padding: 20px;
+
+}
+
+   .form_input{
+    border: none;
+    border-bottom: solid rgb(245, 234, 234);
+    padding:10px;
+    outline: none;
+    display: block;
+    background: transparent;
+
+
+   }
+   .form
+   {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: darkgreen;
+    padding: 10px;
+
+}
+   .register_form{
+    /* box-shadow: 1px 1px 1px 1px white; */
+    box-shadow: 0 10px 50px 0 rgba(254, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    /* flex-direction: column; */
+    padding: 20px;
+    gap: 10px;
+    max-width: 500px;
+    width: 100%;
+
+   }
+   .form_check
+   {
+display: flex;  
+gap: 5px;
+   }
+   .anchor
+   {
+    margin-right: 10px;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    border-bottom: 3px solid rgb(232, 26, 26);
+    /* border-color: beige; */
+    /* text-decoration: NONE; */
+   }
